@@ -1,0 +1,46 @@
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /monadhub-wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /monadhub-wordpress/index.php [L]
+</IfModule>
+# END WordPress
+
+# Redirect HTTP to HTTPS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Disable Directory Listing
+Options -Indexes
+
+# Protect .htaccess File
+<Files ".htaccess">
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Custom Error Pages
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+# Increase PHP Limits (Adjust as needed)
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# Disable XML-RPC (optional, if you don't use it)
+<Files xmlrpc.php>
+Order Allow,Deny
+Deny from all
+</Files>
