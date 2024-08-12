@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'monadhub-wordpress' );
+define( 'DB_NAME', 'mongohubwordpress' );
 
 /** Database username */
 define( 'DB_USER', 'dbmasteruser' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'imA$>E^;;?$Qu.CO8mql8rPrD[3C=65[' );
+define( 'DB_PASSWORD', 'LQoQOf,rGWF(t4cTY_#$:~MN]Tg_3P2l' );
 
 /** Database hostname */
-define( 'DB_HOST', 'ls-52fdb2b4366fab05d7853404d9d1a67592477ab2.cdcgamaes6s7.ap-southeast-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'ls-7bcc7548e50a485f2ab5723ea516e656b27044db.cdcgamaes6s7.ap-southeast-1.rds.amazonaws.com' );
 
 
 
