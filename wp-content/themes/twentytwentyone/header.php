@@ -23,7 +23,9 @@
 
   // Default values
   $default_description = 'Welcome to Monadhub.xyz. At MonadHub, you can explore in-depth articles, stay updated with the latest news, and discover exciting projects within the Monad community.';
-  $default_image = get_template_directory_uri() . '/assets/images/save.jpg';
+  $default_image = get_template_directory_uri() . '/assets/images/favicon.png';
+  $default_image_2 = get_template_directory_uri() . '/assets/images/save.jpg';
+
 
   $site_name = get_bloginfo('name');
   
@@ -31,7 +33,7 @@
   $meta_title = $site_name;
   $meta_description = $default_description;
   $meta_url = home_url();
-  $meta_image = $default_image;
+  $meta_image = $default_image_2;
     $title = "Home";
 
     $current_page_url = get_permalink();
@@ -73,7 +75,7 @@ if ($category) {
         $meta_title = get_the_title();
         $meta_description = wp_trim_words(get_the_excerpt(), 55) ?: $default_description;
         $meta_url = esc_url(home_url('/detail/')).$post_slug;
-        $meta_image = get_the_post_thumbnail_url(get_the_ID()) ?: $default_image;
+        $meta_image = get_the_post_thumbnail_url(get_the_ID()) ?: $default_image_2;
       }
   ?>
 
@@ -94,7 +96,7 @@ if ($category) {
 
   <!-- Favicon -->
   <link rel="icon" href="<?php echo esc_url($default_image); ?>">
-  <meta content="<?php echo esc_url($default_image); ?>" property="og:image">
+  <meta content="<?php echo esc_url($default_image_2); ?>" property="og:image">
   <?php wp_head(); ?>
 </head>
 
