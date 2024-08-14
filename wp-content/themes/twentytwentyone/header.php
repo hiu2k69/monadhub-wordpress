@@ -23,7 +23,8 @@
 
   // Default values
   $default_description = 'Welcome to Monadhub.xyz. At MonadHub, you can explore in-depth articles, stay updated with the latest news, and discover exciting projects within the Monad community.';
-  $default_image = get_template_directory_uri() . '/assets/images/favicon.png';
+  $default_image = get_template_directory_uri() . '/assets/images/save.jpg';
+
   $site_name = get_bloginfo('name');
   
   // Initialize variables for meta tag values
