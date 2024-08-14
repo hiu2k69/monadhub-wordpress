@@ -93,7 +93,7 @@ if ($category) {
 
   <!-- Favicon -->
   <link rel="icon" href="<?php echo esc_url($default_image); ?>">
-
+  <meta content="<?php echo esc_url($default_image); ?>" property="og:image">
   <?php wp_head(); ?>
 </head>
 
