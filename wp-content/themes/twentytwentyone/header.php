@@ -50,13 +50,13 @@
     $img_cat = [
             "monad-learning" => "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_monadlearn.png",
             'monad-ecosystem' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_monad-eco.png",
-            'community-news' =>  get_template_directory_uri() . "/assets/images/3.png",
+            'community-news' =>  get_template_directory_uri() . "/assets/images/community-news.jpg",
             'community-culture' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Community-culture.png",
             'how-to-contribute' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_contribute.png",
             'artists-and-gallery' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Artists-and-Arts.png",
             'team-members' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Monad-team-members.png",
             'monacomics' =>  get_template_directory_uri() . "/assets/images/8.png",
-            'monad-media-kit' =>  get_template_directory_uri() . "/assets/images/9.png",
+            'monad-media-kit' =>  get_template_directory_uri() . "/assets/images/monad-mediakit.jpg",
             'faqs' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_faq.png",
         ];
 if ($category) {
@@ -133,7 +133,7 @@ if ($category) {
                     <li><a href="<?php echo home_url(); ?>" class="item-nav active">Home</a></li>
                     <li><a href="<?php echo home_url('/monad-learning'); ?>" class="item-nav">Monad Learning</a></li>
                     <li><a href="<?php echo home_url('/community-culture'); ?>" class="item-nav">Community Culture</a></li>
-                    <li><a href="<?php echo home_url('/news'); ?>" class="item-nav">News</a></li>
+                    <li><a href="<?php echo home_url('/community-news'); ?>" class="item-nav">News</a></li>
                     <li><a href="<?php echo home_url('/about-monadhub'); ?>" class="item-nav">About MonadHub</a></li>
                 </ul>
             </nav>

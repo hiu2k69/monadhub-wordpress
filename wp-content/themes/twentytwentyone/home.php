@@ -386,9 +386,9 @@ get_header();
                     ],
                         
                     [
-                        "name" => "",
-                        "url" => "#",
-                        'img' =>  get_template_directory_uri() . "/assets/images/3.png",
+                        "name" => "Piggy",
+                        "url" => "https://x.com/Yves_truong",
+                        'img' =>  get_template_directory_uri() . "/assets/images/community-news.jpg",
                     ],
                     [
                         "name" => "callmexenom",
@@ -412,14 +412,14 @@ get_header();
                     ],
                      
                      [
-                        "name" => "",
-                        "url" => "#",
+                        "name" => "Thisisfin_",
+                        "url" => "https://x.com/thisisfin_",
                         'img' =>  get_template_directory_uri() . "/assets/images/8.png",
                     ],
                     [
                         "name" => "",
                         "url" => "#",
-                        'img' =>  get_template_directory_uri() . "/assets/images/9.png",
+                        'img' =>  get_template_directory_uri() . "/assets/images/monad-mediakit.jpg",
                     ],
                     [
                         "name" => "",
@@ -445,7 +445,6 @@ get_header();
 
                                 </div>
                                 <a href="<?php echo esc_url(home_url("/". $categories[$i-1]->slug)); ?>" class="see-more d-none-sm">
-                                    <!-- <img aria-hidden="true" alt="chat-bubble" class="see" src="<?php echo get_template_directory_uri(); ?>/assets/images/Readmore icon.svg" /> -->
                                     Explore now
                                 </a>
                             </div>

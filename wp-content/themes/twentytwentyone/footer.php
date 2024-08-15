@@ -113,6 +113,26 @@ a.text-account {
         window.location.href = newUrl;
     });
     
+    document.addEventListener('DOMContentLoaded', function() {
+   
+    let currentPath = window.location.pathname.replace(/\/$/, '');
+        
+    console.log(currentPath);
+    
+    const menuItems = document.querySelectorAll('.menu li a');
+        
+        
+    
+    menuItems.forEach(function(item) {
+        let menuItemPath = new URL(item.href).pathname.replace(/\/$/, '');
+        if (menuItemPath === currentPath) {
+            menuItems.forEach(function(i) {
+                i.classList.remove('active');
+            });
+            item.classList.add('active');
+        }
+    });
+});
 </script>
 </body>
 </html>
