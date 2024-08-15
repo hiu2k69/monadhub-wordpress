@@ -15,11 +15,10 @@ get_header();
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    min-height: 100vh;
 }
 </style>
 <section class="content-about">
-    <div class="container pt-5">
+    <div class="container py-5">
         <div class="row">
         <img src="<?php echo get_template_directory_uri() . "/assets/images/about-monadhub.jpg" ?>" alt="">
 
