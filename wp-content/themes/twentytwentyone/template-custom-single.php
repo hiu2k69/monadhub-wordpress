@@ -91,7 +91,8 @@ h2.name-title.ml-5 {
         font-size: 13px; /* Adjust as needed */
     }
     .container.box-last- {
-        margin-left: 18%; /* Adjust as needed */
+        margin-left: 18% !important;
+        width: auto; /* Adjust as needed */
     }
     .tab-content.mt-5 {
         width: 80%; /* Adjust as needed */
@@ -109,9 +110,7 @@ h2.name-title.ml-5 {
         position: fixed;
         top: 10%;
     }
-    .container.box-last- {
-        margin-left: 0%;
-}
+
     .main-navigation .menu {
     list-style: none;
     display: flex;
@@ -728,6 +727,27 @@ figure.wp-caption.alignnone {
 
 .table-of-contents a.active {
     color: #836EF9 !important;
+}
+@media (min-width: 1026px) and (max-width: 1550px){
+	nav#site-navigation{
+		right: 10%;
+	}
+
+   .col-lg-2.col-md-3{
+     justify-content: start;
+   }
+
+   .tab-container{
+      padding-top: 60px;
+   }
+
+   .pb-5.color-content{
+    margin-top: 3rem;
+   }
+
+   .table-of-contents{
+    top: 90px;
+   }
 }
 </style>
 <section class="detail-post">

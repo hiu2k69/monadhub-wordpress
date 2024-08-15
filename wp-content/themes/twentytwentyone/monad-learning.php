@@ -43,7 +43,7 @@ get_header();
         margin-left: 18%; /* Adjust as needed */
     }
     .tab-content.mt-5 {
-        width: 80%; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
         margin-top: 6rem; /* Adjust as needed */
     }
     .col-lg-9.col-md-12 {
@@ -900,6 +900,21 @@ get_header();
     font-family: 'Segoe UI';
     border-radius: 20px;
     border: 3px solid #836EF9;
+}
+
+@media (min-width: 1026px) and (max-width: 1550px){
+	nav#site-navigation{
+		right: 10%;
+	}
+
+   .col-lg-2.col-md-3{
+      justify-content: start;
+   }
+
+   .tab-container{
+      padding-top: 60px;
+   }
+
 }
 </style>
 
