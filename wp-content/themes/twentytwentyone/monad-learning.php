@@ -326,16 +326,6 @@ get_header();
       border-left: none !important;
    }
 
-   .box-image-last {
-      width: 150px;
-      object-fit: cover;
-      transition: all .2s ease-in-out;
-
-   }
-
-   .box-image-last:hover {
-      transform: scale(1.2);
-   }
 
    img.icon-title {
       width: 29px;
@@ -641,9 +631,6 @@ get_header();
          padding-top: 0 !important;
       }
 
-      .box-image-last:hover {
-         transform: none;
-      }
 
       .col-lg-3.col-md-6.col-6 {
    padding: 0;
@@ -719,9 +706,6 @@ get_header();
          padding-top: 0 !important;
       }
 
-      .box-image-last:hover {
-         transform: none;
-      }
 
       .d-none-sm {
          display: none !important;

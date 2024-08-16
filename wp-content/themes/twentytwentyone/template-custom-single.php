@@ -186,16 +186,6 @@ h2.name-title.ml-5 {
         z-index: 3;
     }
 
-    .box-image-last {
-        width: 150px;
-        object-fit: cover;
-        transition: all .2s ease-in-out;
-
-    }
-
-    .box-image-last:hover {
-        transform: scale(1.2);
-    }
 
     .box-content-t {
         padding: 10px;
@@ -584,9 +574,7 @@ h1.text-2xl.font-bold.text-foreground{
       .tab-content.mt-5 .container{
         padding: 0 30px;
       }
-      .box-image-last:hover{
-         transform: none;
-      }
+    
       
       .set-position{
         justify-content: center;
@@ -622,9 +610,7 @@ h1.text-2xl.font-bold.text-foreground{
       .tab-content.mt-5 .container{
         padding: 0 30px;
       }
-      .box-image-last:hover{
-         transform: none;
-      }
+
       
       .d-none-sm{
         display: none !important;

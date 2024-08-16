@@ -60,7 +60,7 @@ img.not-found{
 
 	<section class="not-found">
 		<div class="box-notfoud">
-   				<img src="https://monadocs.xyz/wp-content/uploads/2024/07/salmonadrub-scaled.gif" alt="" class="not-found w-80">
+   				<img src="<?php echo get_template_directory_uri() . "/assets/images/salmonadrub.gif" ?>" alt="" class="not-found w-80">
 				<h3 class="content-not">"Oh no, you visit wrong page, you have
 			to run out of this place, run! runnn"</h3>
 		</div>
