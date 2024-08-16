@@ -7737,9 +7737,10 @@ img.img-title {
 }
 
 .box-image-last {
+	min-width: 150px;
     width: 150px;
     object-fit: cover;
-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 
 }
 .box-image-last:hover {
