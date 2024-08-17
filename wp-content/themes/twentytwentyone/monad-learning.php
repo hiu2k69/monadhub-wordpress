@@ -37,8 +37,11 @@ get_header();
    }
    @media only screen and (min-width: 992px) and (max-width: 1779px) {
     h2.name-title.ml-5 {
-        font-size: 13px; /* Adjust as needed */
+        font-size: 12px; /* Adjust as needed */
     }
+    .box-content-t1 span {
+    font-size: 15px;
+}
     .container.box-last- {
         margin-left: 18%; /* Adjust as needed */
     }
