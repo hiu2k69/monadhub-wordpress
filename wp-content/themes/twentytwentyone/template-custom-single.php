@@ -735,6 +735,16 @@ figure.wp-caption.alignnone {
     top: 90px;
    }
 }
+tbody td {
+    border-left: 1px solid;
+}
+table  {
+    border : 1px solid;
+}
+table tr {
+    border : 1px solid;
+}
+
 </style>
 <section class="detail-post">
     <div class="container-fluid">
