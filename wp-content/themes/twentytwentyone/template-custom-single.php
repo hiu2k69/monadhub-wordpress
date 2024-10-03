@@ -736,16 +736,16 @@ figure.wp-caption.alignnone {
    }
 }
 tbody td {
-    border-left: 1px solid #494965;
+    border-left: 1px solid #7070AF;
 }
 table  {
-    border : 1px solid #494965;
+    border : 1px solid #7070AF;
 }
 table th {
-    border : 1px solid #494965;
+    border : 1px solid #7070AF;
 }
 table tr {
-    border : 1px solid #494965;
+    border : 1px solid #7070AF;
 }
 
 </style>
