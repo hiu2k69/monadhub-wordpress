@@ -377,12 +377,12 @@ get_header();
                     [   
                         "name" => "Hagen", 
                         "url" => "https://x.com/Hagen_web3",
-                        "img" => "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_monadlearn.png",
+                        "img" => "https://www.monadhub.xyz/wp-content/uploads/2024/11/Learn-about-monad.png",
                     ],
                     [
                         "name" => "auroraxbt x empressitta", 
                         "url" => "https://x.com/empressitta",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_monad-eco.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/Monad-ecosystem.png",
                     ],
                         
                     [
@@ -393,22 +393,22 @@ get_header();
                     [
                         "name" => "callmexenom",
                         "url" => "https://x.com/callmexenom",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Community-culture.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/Community-culture.png",
                     ],
                     [
                         "name" => "Linad",
                         "url" => "https://x.com/zhangliu_eth",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_contribute.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/How-to-contribute.png",
                     ],
                     [
                         "name" => "Puichii",
                         "url" => "https://x.com/NPuichii",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Artists-and-Arts.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/Artists-and-Gallery.png",
                     ],
                     [
                         "name" => "VU HUNG",
                         "url" => "https://x.com/vuvanhungxd9",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_Monad-team-members.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/Team-members.png",
                     ],
                      
                      [
@@ -424,7 +424,7 @@ get_header();
                     [
                         "name" => "",
                         "url" => "#",
-                        'img' =>  "https://monadocs.xyz/wp-content/uploads/2024/08/homepage_faq.png",
+                        'img' =>  "https://www.monadhub.xyz/wp-content/uploads/2024/11/FAQs.png",
                     ],
                     ];
                 for ($i = 1; $i <= count($categories); $i++) {
