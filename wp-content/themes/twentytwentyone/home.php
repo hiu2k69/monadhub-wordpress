@@ -437,7 +437,7 @@ get_header();
                                     <img src="<?php echo $artists[$i-1]["img"] ?>" alt="Image Description" class="image-home">
                                 </div>
                                 <div class="box-artist d-none-sm <?php echo ($artists[$i-1]["name"] == "" ? "d-none" : ""); ?>">
-                                    <a href="<?php echo $artists[$i-1]["url"]; ?>" target="_blank" rel="noopener noreferrer" class="artist ">Artist: <span><?php echo $artists[$i - 1]["name"]; ?></span></a>　
+                                    <a href="<?php echo $artists[$i-1]["url"]; ?>" target="_blank" rel="noopener noreferrer" class="artist ">Creator: <span><?php echo $artists[$i - 1]["name"]; ?></span></a>　
                                 </div>
                                 <div class="box-content ">
                                     <h3 class="home-title"><?php echo $categories[$i-1]->name; ?></h3>
