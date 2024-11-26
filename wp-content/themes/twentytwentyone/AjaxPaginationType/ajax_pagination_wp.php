@@ -74,7 +74,7 @@ function query_ajax_pagination_type($post_type = 'post',$cat = 22, $type="" , $p
             $allpost .= '  <div class="box-image">';
             $allpost .= '<img src="' . get_the_post_thumbnail_url($post_id) . '" alt="Image Description" class="image-home">';
             $allpost .= '<div class="box-artist">';
-            $allpost .= ' <a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Artist: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
+            $allpost .= ' <a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Creator: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
             $allpost .= '  </div>';
             $allpost .= ' <div class="box-content">';
             $allpost .= ' <h3 class="home-title">'. get_the_title().'</h3>';

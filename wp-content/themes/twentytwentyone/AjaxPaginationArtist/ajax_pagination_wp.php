@@ -73,7 +73,7 @@ if ($post_time >= $five_minutes_ago || $post_modified_time >= $five_minutes_ago)
     $allpost .= '<span class="">New</span>';
     $allpost .= '</div>';
     $allpost .= '<div class="box-artist-new">';
-    $allpost .= '<a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Artist: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
+    $allpost .= '<a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Creator: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
     $allpost .= '</div>';
     $allpost .= '<div class="box-new d-mobile">';
     $allpost .= '<span class="">New</span>';
@@ -82,7 +82,7 @@ if ($post_time >= $five_minutes_ago || $post_modified_time >= $five_minutes_ago)
 } else {
     $allpost .= '<div class="labels">';
     $allpost .= '<div class="box-artist-new">';
-    $allpost .= '<a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Artist: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
+    $allpost .= '<a href="'. (!empty($custom_link) ? $custom_link : "#").'" target="_blank" rel="noopener noreferrer" class="artist">Creator: <span>'. (!empty($artist) ? $artist : get_the_author()).'</span></a>';
     $allpost .= '</div>';
     $allpost .= '</div>';
 }
